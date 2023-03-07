@@ -1,0 +1,78 @@
+/* Center all content in the browser window */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Change type size, weight, color, and alignment */
+p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #333;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Remove bullets and underlines from links */
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #333;
+}
+
+/* Display navigation vertically on mobile */
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Remove border from linked image */
+img {
+  border: none;
+}
+
+/* Add background color and color scheme */
+body {
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+}
+
+nav {
+  background-color: #eee;
+  padding: 10px;
+}
+
+main {
+  background-color: #fff;
+  padding: 20px;
+}
+
+footer {
+  background-color: #eee;
+  padding: 10px;
+}
+
+/* Use Google font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', Helvetica, sans-serif;
+}
