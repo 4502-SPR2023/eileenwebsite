@@ -186,7 +186,7 @@ address {
   }
 
   .image-holder {
-    width: 500px;
+    width: 30%;
   }
 
   .media-list .text-holder {
@@ -219,3 +219,4 @@ address {
   nav li {
     width: 25%;
   }
+}
