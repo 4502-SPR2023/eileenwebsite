@@ -1,3 +1,5 @@
+"use strict";
+
 var photoDivs = document.getElementsByClassName("gallery-image");
 
 var nextButton = document.getElementById("button_next");
