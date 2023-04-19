@@ -38,6 +38,13 @@ main {
   margin: 1rem auto;
 }
 
+img {
+  border: none;
+  display: flex;
+  justify-content: center;
+  width:250px;height:370px
+}
+
 /*beginning updated nav and ul, ol*/
 nav {
   color: #E3AD16;
@@ -58,7 +65,7 @@ ul, ol {
 /*end of updated nav and ul, ol*/
 
 nav a {
-  color: #E3AD16;
+  color: #000000;
 }
 
 a {
@@ -98,6 +105,7 @@ nav li, nav li a {
   background-color: #E3AD16;
   color: #000;
   padding: 1rem;
+  font-weight: bold;
 }
 
 /*Footer section*/
