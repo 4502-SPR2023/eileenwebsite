@@ -2,6 +2,8 @@
 
 var photoDivs = document.getElementsByClassName("gallery-image");
 
+var photoDivs = document.getElementsByClassName("gallery-image1");
+
 var nextButton = document.getElementById("button_next");
 
 var previousButton = document.getElementById("button_previous");
