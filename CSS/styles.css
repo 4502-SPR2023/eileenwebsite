@@ -38,7 +38,7 @@ main {
   margin: 1rem auto;
 }
 
-img {
+.profile {
   border: none;
   display: flex;
   justify-content: center;
@@ -69,7 +69,6 @@ nav a {
 }
 
 a {
-  font-weight: bold;
   font-style: italic;
   text-decoration: none;
 }
@@ -102,7 +101,7 @@ nav li, nav li a {
 }
 
 .active {
-  background-color: #E3AD16;
+  background-color: #AF69EF;
   color: #000;
   padding: 1rem;
   font-weight: bold;
