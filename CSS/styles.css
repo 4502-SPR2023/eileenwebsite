@@ -28,6 +28,10 @@ body {
   font-family: 'Cormorant Garamond', serif;
 }
 
+.homepage {
+  text-align: center;
+}
+
 main {
   width: 90%;
   max-width: 1000px;
