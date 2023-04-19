@@ -1,3 +1,4 @@
+
 .skip-link {
   position: absolute;
   width: 1px;
@@ -17,15 +18,14 @@
   font-size: 2rem;
 }
 
-
 html {
 font-size: 20px;
 }
 
 body {
   margin: 0px;
-  background-color: #F2B8C6;
-  font-family: 'Ubuntu', sans-serif;
+  background-color: #E3AD16;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 main {
@@ -38,31 +38,37 @@ main {
   margin: 1rem auto;
 }
 
-.homepage {
-  text-align: center;
-}
-
+/*beginning updated nav and ul, ol*/
 nav {
-  background-color: #FFFFFF;
+  color: #E3AD16;
+  background-color: #000000;
   padding: 0;
+  display: block;
   margin: 0;
+  border-bottom: 3px solid #FFF;
 }
 
 ul, ol {
   list-style-type: none;
+  padding-inline-start: 0px;
   margin-block-start: 0px;
   margin-block-end: 0px;
 }
 
+/*end of updated nav and ul, ol*/
+
+nav a {
+  color: #E3AD16;
+}
 
 a {
+  font-weight: bold;
   font-style: italic;
   text-decoration: none;
-  font-family: 'PT Serif Italic', serif;
 }
 
 h1, h2, h3 {
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Rubik', sans-serif;
   margin: 0
 }
 
@@ -73,6 +79,7 @@ h2 {
 
 li {
   list-style-type: none;
+  font-style: italic;
 }
 
 ol li {
@@ -88,59 +95,15 @@ nav li, nav li a {
 }
 
 .active {
-  background-color: #BE93D4;
+  background-color: #E3AD16;
   color: #000;
   padding: 1rem;
-  font-family: 'PT Serif', serif;
-  font-weight: bold;
 }
-
-img {
-  border: none;
-  width:250px;height:370px
-}
-
-.gallery-image {
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-  margin: 4rem auto;
-  width: 100%;
-  max-width: 700px;
-}
-
-.gallery-image img {
-  width: 100%;
-}
-
-.button_holder {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 1rem;
-}
-
-button {
-  min-width: 5rem;
-
-}
-
-figcaption {
-  margin: 0.5rem;
-}
-
-.hideThis {
-  display: none;
-}
-
-.headlineback {
-  background-image: url("");
 
 /*Footer section*/
 footer {
-  background: #d3d3d3;
-  color: #601A35;
+  background: #000;
+  color: #E3AD16;
   width: 100%;
   margin: 0;
   padding: 1rem;
@@ -176,6 +139,47 @@ footer {
 
 address {
   font-style: normal;
+}
+
+/*figure and .gallery-image styles*/
+
+.gallery-image {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  margin: 4rem auto;
+  width: 100%;
+  max-width: 700px;
+}
+
+.gallery-image img {
+  width: 100%;
+}
+
+.button_holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.hideThis {
+  display: none;
+}
+
+button {
+  background-color: #E3AD16;
+  border: none;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  cursor: pointer;
+  width: 100px;
+  padding: 0.8rem 1rem;
+  border-radius: 5px;
 }
 
 /*When the browser is at least 555px wide*/
