@@ -181,7 +181,9 @@ address {
 }
 
 figcaption {
-  margin: 0.5rem;
+  justify-content: center;
+  margin-left: 2rem;
+  margin-top: 0.5rem;
 }
 
 .hideThis {
