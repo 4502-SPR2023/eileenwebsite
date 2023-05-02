@@ -162,15 +162,13 @@ address {
   margin-block-end: 0;
   margin-inline-start: 0;
   margin-inline-end: 0;
-  margin: auto;
+  margin: 1rem auto;
   width: 100%;
   max-width: 700px;
 }
 
 .gallery-image img {
-  /*width: 100%;*/
-  height: 500px;
-  max-width: 700px;
+  width: 100%;
 }
 
 .button_holder {
@@ -178,6 +176,10 @@ address {
   flex-direction: row;
   justify-content: space-between;
   margin-top: 1rem;
+}
+
+figcaption {
+  margin: 0.5rem;
 }
 
 .hideThis {
