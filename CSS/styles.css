@@ -166,6 +166,7 @@ address {
   margin: auto;
   width: 100%;
   max-width: 700px;
+  justify-content: center；
 }
 
 .gallery-image img {
